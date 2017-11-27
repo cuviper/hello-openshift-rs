@@ -1,0 +1,12 @@
+[package]
+authors = ["Josh Stone <jistone@redhat.com>"]
+description = "An example Rust app for OpenShift."
+license = "MIT"
+name = "hello-openshift"
+readme = "README.md"
+version = "0.1.0"
+
+[dependencies]
+futures = "0.1.17"
+hyper = "0.11.7"
+tokio-core = "0.1.10"
